@@ -1,0 +1,72 @@
+//  (1 )wap to print rollno,name,branch by getting the input from the user.
+
+package practice_java;
+
+import java.util.Scanner;  // <-- This is the required import
+
+public class student {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+
+		System.out.println("Enter rollno:");
+		int rollno = input.nextInt();
+		input.nextLine(); // Consume the leftover newline
+
+		System.out.println("Enter name:");
+		String name = input.nextLine();
+
+		System.out.println("Enter branch:");
+		String branch = input.nextLine();
+
+		System.out.println("Rollno: " + rollno);
+		System.out.println("Name: " + name);
+		System.out.println("Branch: " + branch);
+	}
+}
+
+//(2) get the marks and add the marks
+
+package practice_java;
+
+import java.util.Scanner;  // <-- This is the required import
+
+public class student {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+
+		System.out.println("Enter rollno:");
+		int rollno = input.nextInt();
+		input.nextLine(); // Consume the leftover newline
+
+		System.out.println("Enter name:");
+		String name = input.nextLine();
+
+		System.out.println("Enter branch:");
+		String branch = input.nextLine();
+
+		System.out.println("Rollno: " + rollno);
+		System.out.println("Name: " + name);
+		System.out.println("Branch: " + branch);
+	}
+}
+//(3) Get the avg marks
+package practice_java;
+import java.util.Scanner;
+public class average
+{
+    public static void main(String[] args) {
+    Scanner var = new Scanner(System.in);
+    int m1 = var.nextInt();
+    int m2 = var.nextInt();
+    int m3 = var.nextInt();
+    int m4 = var.nextInt();
+    int m5 = var.nextInt();
+    int m6 = var.nextInt();
+    float avg=(m1+m2+m3+m4+m5+m6)/6;
+    System.out.println("THE AVERAGE MARK: "+avg);
+}
+}
+
+
