@@ -462,3 +462,43 @@ Enter the number :
 45
 number = 45
 number = 400
+
+
+10).define a cls named person with attributes name and age,name is string and age is int
+impement the get name and get age to compute the values of attributes
+create a method display to print the name and age of a person
+create the instance of class person.
+
+package practice_java;
+
+public class person { 
+    String name;
+    int age;
+    public person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+   
+    public int getAge() {
+        return age;
+    }
+
+    public void display() {
+        System.out.println("Name: " + getName());
+        System.out.println("Age: " + getAge());
+    }
+
+    public static void main(String[] args) {
+        person p1 = new person("Monika", 18);
+        p1.display();
+    }
+}
+OUTPUT:
+Name: Monika
+Age: 18
+
