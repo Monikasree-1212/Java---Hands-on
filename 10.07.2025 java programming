@@ -1,0 +1,464 @@
+1).wap to print from 0 to 100                  
+
+package practice_java;
+
+public class series {
+
+    public static void main(String[] args) {
+        for(int i = 0; i <= 10; i++) {
+            System.out.println("i = " + i);
+        }
+    }
+}
+
+OUTPUT:
+
+i = 0
+i = 1
+i = 2
+i = 3
+i = 4
+i = 5
+i = 6
+i = 7
+i = 8
+i = 9
+i = 10
+
+2).wap to print from 100 to 0 
+
+package practice_java;
+
+public class series1 {
+
+    public static void main(String[] args) {
+        for(int i = 10; i >= 0; i--) {
+            System.out.println("i = " + i);
+        }
+    }
+}
+
+OUTPUT:
+
+i = 10
+i = 9
+i = 8
+i = 7
+i = 6
+i = 5
+i = 4
+i = 3
+i = 2
+i = 1
+i = 0
+
+3)..wap to print from 100 to 200 
+
+
+package practice_java;
+
+public class series2 {
+
+    public static void main(String[] args) {
+        for(int i = 100; i <= 200; i++) {
+            System.out.println("i = " + i);
+        }
+    }
+}
+
+OUTPUT:
+i = 100
+i = 101
+i = 102
+i = 103
+i = 104
+i = 105
+i = 106
+i = 107
+i = 108
+i = 109
+i = 110
+i = 111
+i = 112
+i = 113
+i = 114
+i = 115
+i = 116
+i = 117
+i = 118
+i = 119
+i = 120
+i = 121
+i = 122
+i = 123
+i = 124
+i = 125
+i = 126
+i = 127
+i = 128
+i = 129
+i = 130
+i = 131
+i = 132
+i = 133
+i = 134
+i = 135
+i = 136
+i = 137
+i = 138
+i = 139
+i = 140
+i = 141
+i = 142
+i = 143
+i = 144
+i = 145
+i = 146
+i = 147
+i = 148
+i = 149
+i = 150
+i = 151
+i = 152
+i = 153
+i = 154
+i = 155
+i = 156
+i = 157
+i = 158
+i = 159
+i = 160
+i = 161
+i = 162
+i = 163
+i = 164
+i = 165
+i = 166
+i = 167
+i = 168
+i = 169
+i = 170
+i = 171
+i = 172
+i = 173
+i = 174
+i = 175
+i = 176
+i = 177
+i = 178
+i = 179
+i = 180
+i = 181
+i = 182
+i = 183
+i = 184
+i = 185
+i = 186
+i = 187
+i = 188
+i = 189
+i = 190
+i = 191
+i = 192
+i = 193
+i = 194
+i = 195
+i = 196
+i = 197
+i = 198
+i = 199
+i = 200
+
+
+4).wap to print from 200 to 100 (using while loop)
+
+
+package practice_java;
+
+public class series3 {
+
+    public static void main(String[] args) {
+        int i = 200; // Start from 200
+
+        while(i >= 100) { // Run until 100
+            System.out.println("i = " + i);
+            i--; // Decrease by 1
+        }
+    }
+}
+
+
+OUTPUT:
+
+i = 200
+i = 199
+i = 198
+i = 197
+i = 196
+i = 195
+i = 194
+i = 193
+i = 192
+i = 191
+i = 190
+i = 189
+i = 188
+i = 187
+i = 186
+i = 185
+i = 184
+i = 183
+i = 182
+i = 181
+i = 180
+i = 179
+i = 178
+i = 177
+i = 176
+i = 175
+i = 174
+i = 173
+i = 172
+i = 171
+i = 170
+i = 169
+i = 168
+i = 167
+i = 166
+i = 165
+i = 164
+i = 163
+i = 162
+i = 161
+i = 160
+i = 159
+i = 158
+i = 157
+i = 156
+i = 155
+i = 154
+i = 153
+i = 152
+i = 151
+i = 150
+i = 149
+i = 148
+i = 147
+i = 146
+i = 145
+i = 144
+i = 143
+i = 142
+i = 141
+i = 140
+i = 139
+i = 138
+i = 137
+i = 136
+i = 135
+i = 134
+i = 133
+i = 132
+i = 131
+i = 130
+i = 129
+i = 128
+i = 127
+i = 126
+i = 125
+i = 124
+i = 123
+i = 122
+i = 121
+i = 120
+i = 119
+i = 118
+i = 117
+i = 116
+i = 115
+i = 114
+i = 113
+i = 112
+i = 111
+i = 110
+i = 109
+i = 108
+i = 107
+i = 106
+i = 105
+i = 104
+i = 103
+i = 102
+i = 101
+i = 100
+
+
+
+5).write a program to print even number between 50 t0 100.
+
+package practice_java;
+
+public class evennumbtw50to100 {
+
+    public static void main(String[] args) {
+        for(int i = 50; i <= 100; i++) {
+            if(i % 2 == 0) { // check if i is even
+                System.out.println("i = " + i);
+            }
+        }
+    }
+}
+OUTPUT:
+i = 50
+i = 52
+i = 54
+i = 56
+i = 58
+i = 60
+i = 62
+i = 64
+i = 66
+i = 68
+i = 70
+i = 72
+i = 74
+i = 76
+i = 78
+i = 80
+i = 82
+i = 84
+i = 86
+i = 88
+i = 90
+i = 92
+i = 94
+i = 96
+i = 98
+i = 100
+
+6).write a program to print odd number between 50 to 100.
+
+package practice_java;
+
+public class oddnumbte50to100 {
+
+    public static void main(String[] args) {
+        for(int i = 50; i <= 100; i++) {
+            if(i % 2 != 0) { // check if i is odd
+                System.out.println("i = " + i);
+            }
+        }
+    }
+}
+OUTPUT:
+i = 51
+i = 53
+i = 55
+i = 57
+i = 59
+i = 61
+i = 63
+i = 65
+i = 67
+i = 69
+i = 71
+i = 73
+i = 75
+i = 77
+i = 79
+i = 81
+i = 83
+i = 85
+i = 87
+i = 89
+i = 91
+i = 93
+i = 95
+i = 97
+i = 99
+
+7).create a class to print sq of num
+
+package practice_java;
+
+import java.util.Scanner;
+
+public class sqrtofnumber {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in); 
+
+        System.out.print("Enter a number: ");
+        int num = scanner.nextInt(); 
+
+        int square = num * num; 
+        System.out.println("Square of " + num + " is: " + square); 
+
+        scanner.close();
+    }
+}
+OUTPUT:
+Enter a number: 5
+Square of 5 is: 25
+
+8).create a class to print sq of num
+
+package practice_java;
+
+import java.util.Scanner;
+
+public class cubeofnum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 Scanner scanner = new Scanner(System.in); 
+
+	        System.out.print("Enter a number: ");
+	        int num = scanner.nextInt(); 
+
+	        int cube = num * num *num; 
+	        System.out.println("Cube of " + num + " is: " + cube); 
+
+	        scanner.close();
+
+	}
+
+}
+OUTPUT:
+Enter a number: 12
+Cube of 12 is: 1728
+
+9).creating an class and object
+
+package practice_java;
+
+import java.util.Scanner;
+
+class print
+{
+	public int number;
+	public void display()
+	{
+		System.out.println("number = "+number);
+	}
+}
+public class test {
+
+	public static void main(String[] args) {
+		Scanner x=new Scanner(System.in);
+		print obj=new print();
+		System.out.println("Enter the number :");
+		int num=x.nextInt();
+		obj.number=num;
+		obj.display();
+		obj.number=400;
+		obj.display();
+	}
+
+}
+
+OUTPUT:
+Enter the number :
+45
+number = 45
+number = 400
