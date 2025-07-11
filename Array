@@ -1,0 +1,84 @@
+Program on 1D array
+//array 
+package practice_java;
+
+import java.util.Scanner;
+
+public class new2 {
+
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter the number:");
+		int size;
+		size=s.nextInt();
+		int[]arr=new int[size];
+		for(int i=0;i<size;i++)
+		{
+			arr[i]=s.nextInt();
+		}
+		for(int i:arr)
+		{
+			System.out.println(i);
+		}
+    }
+}
+OUTPUT:
+Enter the number:
+2
+6
+15
+6
+15
+
+Program on 2D array
+package mat;
+
+import java.util.Scanner;
+
+public class mymat {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+
+        System.out.println("Enter number of rows:");
+        int r = input.nextInt();
+        System.out.println("Enter number of columns:");
+        int c = input.nextInt();
+
+        int[][] arr = new int[r][c];
+
+       
+        System.out.println("Enter the elements of the matrix:");
+        for (int i = 0; i < r; i++) {
+            for (int j = 0; j < c; j++) {
+                System.out.print("Element at [" + i + "][" + j + "]: ");
+                arr[i][j] = input.nextInt();
+            }
+        }
+
+
+        System.out.println("The entered matrix is:");
+        for (int i = 0; i < r; i++) {
+            for (int j = 0; j < c; j++) {
+                System.out.print(arr[i][j] + " ");
+            }
+            System.out.println();
+        }
+
+        input.close();
+    }
+}
+
+OUTPUT:
+Enter number of rows:
+2
+Enter number of columns:
+2
+Enter the elements of the matrix:
+Element at [0][0]: 6
+Element at [0][1]: 7
+Element at [1][0]: 5
+Element at [1][1]: 3
+The entered matrix is:
+6 7 
+5 3
