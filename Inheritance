@@ -1,0 +1,120 @@
+1).Single Inheritance Programe.
+
+package practice_java;//single inheritance
+
+class college
+{
+	 int num_stu;
+}
+class cce extends college
+{
+	void display()
+	{
+		System.out.println("Student number: "+num_stu);
+	}
+}
+public class inheritance 
+{
+    public static void main(String[] args)
+    {
+    	cce obj=new cce();
+    	obj.num_stu=3;
+    	obj.display();
+    }
+}
+ Output:
+Student number: 3
+
+2).wap to to implement a following :Hierarchial inheritance
+
+package practice_java;
+
+class Car {
+    String color = "black";
+
+    void display() {
+        System.out.println("The color of car: " + color);
+    }
+}
+
+class Honda extends Car {
+   
+}
+
+class BMW extends Car {
+   
+}
+
+class Skoda extends Car {
+   
+}
+
+public class carbrand {
+    public static void main(String[] args) {
+        Car ob1 = new Honda();
+        ob1.color = "blue";
+        ob1.display();  
+
+        Car ob2 = new BMW();
+        ob2.color = "red";
+        ob2.display();  
+
+        Car ob3 = new Skoda();
+        ob3.color = "white";
+        ob3.display(); 
+    }
+}
+
+OUTPUT:
+The color of car: blue
+The color of car: red
+The color of car: white
+
+3)//create a class name exam with the feelings namely maths,english and java.These are all the subject names.Derieve  a class total and using the method print and print the total
+
+package practice_java;
+class Subject
+{
+	public int mark;
+}
+class Maths extends Subject
+{
+	public void display()
+	{
+		System.out.println("The Maths Mark is: "+mark);
+	}
+}
+class English extends Subject
+{
+	public void display()
+	{
+		System.out.println("The English Mark is: "+mark);
+	}
+}
+class Java extends Subject
+{
+	public void display()
+	{
+		System.out.println("The Java Mark is: "+mark);
+	}
+}
+public class Exam {
+
+	public static void main(String[] args) 
+	{
+		Maths obj1=new Maths();
+		English obj2=new English();
+		Java obj3=new Java();
+		obj1.mark=95;
+		obj2.mark=85;
+		obj3.mark=100;
+		obj1.display();
+		obj2.display();
+		obj3.display();	
+	}
+
+}
+output:
+The Maths Mark is: 95
+The English Mark is: 85
+The Java Mark is: 100
