@@ -1,0 +1,89 @@
+1) How to print your name with initial??
+
+package practice_java;
+
+public class name {
+
+		public static void main(String[] args) {
+			char ini='D';
+			String Name="Monika sree";
+			System.out.println(ini+"."+Name);
+
+		}
+	}
+OUTPUT:
+D.Monika sree
+
+2).String manipulation:
+
+//string manipulation :
+	//string comparision:
+		package practice_java;
+
+	public class string {
+		public static void main(String[] args) {
+			String str1="Ram";
+			String str2="Ram";
+			String str3= "Janu";
+			System.out.println("String Comparison ="+str1.equals(str2));
+			System.out.println("String Comparison ="+str1.equals(str3));
+		}
+	}
+
+OUTPUT:
+String Comparison =true
+String Comparison =false
+
+
+3).//String concortination
+
+package practice_java;
+
+public class fruits {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String fruits=String.join(",","Orange","Apple","Mango");
+		System.out.println(fruits);
+
+	}
+
+}
+
+OUTPUT:
+Orange,Apple,Mango
+
+4).//Length of a string:
+package practice_java;
+
+public class lengthofstring {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str1="Ram";
+		String str2="Ram";
+		String str3= "Janu";
+		System.out.println("Length of a string ="+str1.length());
+	}
+
+}
+
+OUTPUT:
+Length of a string =3
+
+5).First occurance:
+package practice_java;
+
+public class fitstoccurance {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String myStr="Hello planet earth,you are a great planet.";
+		System.out.println(myStr.indexOf("planet"));
+
+	}
+
+}
+OUTPUT:
+6
+
+	
